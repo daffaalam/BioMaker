@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tiet_facebook_ae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:drawableEnd="@drawable/ic_facebook"
+            android:drawablePadding="5dp"
+            android:hint="@string/hint_facebook"
+            android:inputType="textUri" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tiet_twitter_ae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:drawableEnd="@drawable/ic_twitter"
+            android:drawablePadding="5dp"
+            android:hint="@string/hint_twitter"
+            android:inputType="textUri" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tiet_line_ae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:drawableEnd="@drawable/ic_line"
+            android:drawablePadding="5dp"
+            android:hint="@string/hint_line"
+            android:inputType="textUri" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tiet_telegram_ae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:drawableEnd="@drawable/ic_telegram"
+            android:drawablePadding="5dp"
+            android:hint="@string/hint_telegram"
+            android:inputType="textUri" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/tiet_instagram_ae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:drawableEnd="@drawable/ic_instagram"
+            android:drawablePadding="5dp"
+            android:hint="@string/hint_instagram"
+            android:inputType="textUri" />
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
